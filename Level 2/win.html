@@ -1,0 +1,35 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>You Won</title>
+  <link rel="stylesheet" href="../Level 2/css/game over.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <div class="game-over">Congratulations!!! You defeated the evil spirit<br>
+   
+      <button class="restart-button" onclick="playClickSound()">Restart</button>
+ 
+  </div>
+
+  <audio id="click-sound">
+    <source src="../sound/Click.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    function playClickSound() {
+      var audio = document.getElementById("click-sound");
+      audio.volume=1;
+      audio.play();
+      setTimeout(function () {
+
+     window.location.href = '../index.html';     //////////
+},1000);
+    }
+  </script>
+</body>
+</html>

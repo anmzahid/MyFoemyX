@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f9f9f9;
+    min-height:100vh;
+    overflow-x:hidden;
+}
+
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px 100px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo {
+ font-size: 2em;
+ color:#0d2e57;
+ pointer-events:none;
+ margin-left: 38%;
+ font-weight: 100;
+ position: relative;
+ text-shadow: 2px 4px 5px #9f7171;
+}
+
+/* .navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-left:0 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.navigation a:hover{
+   background: #359381;
+    color: #ffffff;
+    
+} */
+
+.parallax{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../../Images/Home/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#text{
+    position:absolute;
+    font-size: 4em;
+    color: #512819;
+    text-shadow: 2px 4px 5px #f9f9f9;
+}
+
+.parallax img{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.parallax img#gate-left{
+    position: fixed;
+    transform: translateX(-225px);
+}
+
+.parallax img#gate-right{
+    position: fixed;
+    transform: translateX(240px);
+}
+
+.sec {
+    position: relative;
+    background: #020912;
+    padding: 100px;
+}
+
+.sec p{
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+
+
+.btn{
+    height: 40px;
+    width: 190px;
+    background:#02431f;
+    border: none;
+    color: #ffffff;
+    border-radius: 30px;
+    margin-left: 38%;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover{
+    background: #ffc107;
+    cursor: pointer;
+}
+.image-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 46%;
+    margin-top:40%;
+  }
+ 
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Adjust the scroll duration as per your preference */
+  html {
+    scroll-behavior: smooth;
+    scroll-behavior: smooth !important; /* For Safari */
+    scroll-snap-type: y proximity; /* For Safari */
+    scroll-snap-stop: always; /* For Safari */
+    scroll-padding-top: 20px; /* For smooth scrolling on edge cases */
+  }
+  
+@keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-moz-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-webkit-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-o-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+.colorchange{
+  animation: colorchangenikhil 1s infinite;
+}
+
+@keyframes colorchangenikhil{
+  0%{color:white;}
+  25%{color:#f6da2f;}
+  50%{color:#f6da2f;}
+  100%{color:white;}
+}
+
+

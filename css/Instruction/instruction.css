@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Roboto Mono', Arial, sans-serif; /* Use Roboto Mono as the font */
+    /* background-image: url("../../Images/game/map.png"); */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items vertically */
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .instructions-container {
+    max-width: 600px;
+    background-color: rgba(7, 37, 64, 0.8); /* Customize the background color opacity */
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  h2 {
+    color: #ffffff;
+    margin-bottom: 0px;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove the bullet points */
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  p {
+    line-height: 1.3;
+  }
+  
